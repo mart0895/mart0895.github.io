@@ -46,6 +46,50 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-header {
-	background: #7cc576 ;
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.logo {
+	width: 200px;
+	position: left;
+	padding-top: 20px;
+	padding-left: 60px;
+}
+.site-header {
+	background:#7cc576 ;
+	padding-bottom:  3%;
+}
+h1 {	
+	position: relative;
+	left: 20%;
+	bottom: 140px;
+	font-weight: bold;
+	font-size: 60px;
+}
+.nav li a {
+	background-color:#6dcff6 ;
+	display: block;
+	position: relative;
+	left: 10%;
+	bottom: 160px;
+	border-radius: 5px;
+	padding-top: 13%;
+	padding-bottom: 13%;
+	padding-right: 30%;
+	padding-left: 30%;	
+	box-sizing: border-box;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+}
+.nav li {
+	float: left;
+	padding: 5%;
+	width: 20%;
+	box-sizing: border-box;
+}
+.main {
+	background-image: url("morrocanflower");
 }
