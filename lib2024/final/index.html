@@ -41,14 +41,14 @@
       <main>
             <section id="about-section" class="about-section clearfix">
                   <h2>ABOUT</h2>
-                  <div id="ipsum clearfix" class="column left">
+                  <div id="ipsum" class="column left">
                         <p>
                          Lorem ipsum dolor sit amet. Aut quasi iure non quia animi aut exercitationem veritatis et vitae distinctio et velit enim. Est repudiandae blanditiis in atque totam vel optio explicabo et consequatur mollitia. Rem quia fuga in aperiam natus sit molestiae asperiores est quae expedita. Eos doloribus similique ut veniam voluptatum ea perferendis quis qui tempora perspiciatis sed dolor adipisci sed deleniti saepe pariatur dolorem. Non porro facilis et expedita consequatur est accusamus omnis qui velit voluptatibus aut repudiandae quasi sit aperiam odio.<br><br>
                          Cum fugit fugiat est eaque nihil qui officiis ullam rem quasi perferendis. In voluptas soluta eum cupiditate eaque et unde rerum et quia adipisci ut similique facere eos soluta dolor. Aut facilis deserunt et odio quibusdam qui Quis veniam! Vel quasi excepturi et eaque enim hic alias suscipit. Et suscipit quia est earum pariatur ut voluptas exercitationem est tempore voluptate. Sed amet blanditiis sit sapiente culpa qui necessitatibus fuga! Non ratione voluptatem et voluptas voluptas est dignissimos itaque ex minima officiis eum omnis autem. Non laborum quasi et voluptatem possimus et asperiores adipisci sit iste voluptatem. Quo nisi animi sit similique consequuntur sit cumque quia sit consequatur cupiditate ea placeat aspernatur sed perferendis voluptatem ut distinctio minus.     
                    </p>
              </div>
-             <div id="photo-container clearfix" class="column right">
-                   <img src="img/pexels-riccardo-bertolo-4245826.png" id="photo">
+             <div id="photo-container" class="column right">
+                   <img src="img/pexels-riccardo-bertolo-4245826.png" id="photo" alt="pic">
              </div>
        </section>
        <section id="table-section" class="table-section clearfix">
@@ -56,12 +56,12 @@
             <table id="tabletable" class="tabletable clearfix">
                   <thead id="table-head" class="table-head">
                         <tr id="row0" class="row0">
-                              <th id="toprow" class="toprow">TIME</th>
-                              <th id="toprow" class="toprow">MONDAY</th>
-                              <th id="toprow" class="toprow">TUESDAY</th>
-                              <th id="toprow" class="toprow">WEDNESDAY</th>
-                              <th id="toprow" class="toprow">THURSDAY</th>
-                              <th id="toprow" class="toprow">FRIDAY</th>                              
+                              <th>TIME</th>
+                              <th>MONDAY</th>
+                              <th>TUESDAY</th>
+                              <th>WEDNESDAY</th>
+                              <th>THURSDAY</th>
+                              <th>FRIDAY</th>                              
                         </tr>
                   </thead>
                   <tbody>
@@ -121,11 +121,11 @@
                <label for="city">City:</label>
                <input type="text" name="city" id="city" placeholder="Applecity" required><br>
                <label for="province">Province:</label>
-               <select id="province" name="province">
-                     <optgroup label="Provinces/Territories" required>
+               <select id="province" name="province" size="13" required>
                            <option>Select Province</option>   
                            <option value="AB">Alberta</option>
                            <option value="BC">British Columbia</option>
+                           <option value="MN">Manitoba</option>
                            <option value="NB">New Brunswick</option>
                            <option value="NL">Newfoundland and Labrador</option>
                            <option value="NWT">Northwest Territories</option>
@@ -134,11 +134,11 @@
                            <option value="ON">Ontario</option>
                            <option value="PEI">Prince Edward Island</option>
                            <option value="QC">Quebec</option>
+                           <option value="SK">Saskatchewan</option>
                            <option value="YK">Yukon</option>
-                     </optgroup>
                </select><br>
-               <label for="postal code">Postal Code</label>
-               <input type="text" name="postal code" placeholder="A1B 2C3" pattern="[A-Z][0-9][A-Z]{3} [0-9][A-Z][0-9]{3}" required><br>
+               <label for="postal-code">Postal Code</label>
+               <input type="text" name="postal code" id="postal-code" placeholder="A1B 2C3" pattern="[A-Z][0-9][A-Z]{3} [0-9][A-Z][0-9]{3}" required><br>
                <button type="submit">Submit</button> 
          </div>
    </section>
@@ -150,16 +150,16 @@
                   <ul>
                         <li class="quick">
                               <a href="schedule.html">SCHEDULE</a>
-                        </li><br>
+                        </li>
                         <li class="quick">
                               <a href="about.html">ABOUT</a>
-                        </li><br>
+                        </li>
                         <li class="quick">
                               <a href="portfolio.html">PORTFOLIO</a>
-                        </li><br>
+                        </li>
                         <li class="quick">
                               <a href="contact.html">CONTACT</a>
-                        </li><br>
+                        </li>
                   </ul>
             </nav> 
       </section>  
@@ -183,6 +183,6 @@
       </a>
 </div>    
 </footer>
-</body>
 <script src="https://kit.fontawesome.com/951057218e.js" crossorigin="anonymous"></script>
+</body>
 </html>
