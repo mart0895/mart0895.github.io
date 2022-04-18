@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+main, header, footer {
+	max-width: 1024px;
+}
+header{
+	background-color: #ffffff;
+}
+body {
+	font-family: 'abelregular';
+}
+h1 {	
+	font-family: 'Bebas Neue', cursive;
+	color: #72a9ae;
+	font-size: 4em;
+	padding: 3% 0% 2% 4%;	
+}
+.nav {
+	background-color: #72a9ae;
+}
+.nav li a {	
+	float: left;
+	padding: 1.5% 0% 1.5% 6%;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: black;
+}
+/* END OF HEADER */	
+h2{
+	color: #72a9ae;
+	padding: 3% 1% 2% 4%;
+	font-size: 1.29em;
+	font-weight: bold;
+}
+.column {
+	float: left;
+	padding-left: 4%;	
+}
+.left {	
+	width: 60%;	
+}
+.photo {
+	width: 40%;
+}
+.tabletable {
+	width: 95%;
+	float: left;
+	margin: 1%
+}
+table, th, td {	
+	border:  1px solid black;
+	font-weight: bold;
+	padding: 1%;
+	text-align: center;	
+}
+.table-head {
+ background-color: #ffffff;
+}
+th {
+	color: #72a9ae;
+}
+.row1, .row3 {
+	background-color: #efefef;
+}
+/*  TABLE SECTION END  */
+.info {
+	float: right;
+	text-align: center;
+	margin-right: 7%;	
+	margin-bottom: 2%;
+	background-color: #ffffff;
+	font-weight: bold;
+	width: 25%;
+	height: 30%;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+.profile-form {
+	float: left;
+	margin-left: 5%;
+	width: 40%;
+	font-weight: bold;
+}
+input[type=text], input[type=email], select, button[type=submit] {
+  width: 40%;
+  padding: 3px 5px;
+  margin-right: 40%;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  float: right;
+}
+button[type=submit] {
+	width: 30%;
+	float: right;
+	margin-top: 4%;
+}
+label {
+	float: left;
+	clear: left;
+	padding-top: 2%;
+	padding-right: 2%;
+}
+/* INFO SECTION END */
+footer {
+	background-color: #454545;
+	padding: 2%;		
+}
+h3 {
+	color: #ffffff;
+	font-weight: bold;
+	padding-bottom: 2%;
+}
+.quicklink {
+	float: left;
+	text-decoration: none;
+	color: black;
+}
+.footnav li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.container4 {
+	float: right;
+	color: #ffffff;
+	text-align: left;
+}
+.container3 {
+	position: relative;
+	left: 450px;
+	bottom: 10px;
+}
+.link-list {
+	padding-right: 1%;
+}
